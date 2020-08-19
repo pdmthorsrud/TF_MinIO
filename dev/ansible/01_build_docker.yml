@@ -24,7 +24,7 @@
 
 - name: Archive docker image
   docker_image:
-    name: docker_image
+    name: minio
     tag: local
     archive_path: /vagrant/dev/tmp/minio.tar
     source: local
